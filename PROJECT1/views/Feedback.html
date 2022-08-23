@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="/PROJECT1/assets/css/stylefeedback.css">
+</head>
+<body>
+     <div>
+     <h1><pre><i>FEEDBACK FORM</i></pre></h1>
+     <form>
+        <fieldset>
+            
+            <legend>User Feedback </legend>
+            <label> Name</label><br>
+            <input  type="text" name="Name" placeholder="Name"><br>
+
+            <label> Last Name</label><br>
+            <input type="text" name="LastName" placeholder="Surname"><br>
+
+            <label>Email address</label><br>
+            <input type="text" name="Email address" placeholder="Email ID"><br>
+
+            <label>Write Your Review About This Website</label><br>
+            <textarea id="review" type="text" name="Review"></textarea><br>
+            
+            <label>What Rating you would like to give to this website </label><br>
+            <label class="container">1  
+                <input type="radio" name="radio" >  
+                  
+              </label>  
+              <label class="container">2 
+                <input type="radio" name="radio">  
+                  
+              </label>  
+              <label class="container">3  
+                <input type="radio" name="radio">  
+                  
+              </label>  
+              <label class="container">4  
+                <input type="radio" name="radio">  
+                  
+              </label>
+              <label class="container">5  
+                <input type="radio" name="radio">  
+                  
+              </label> <br>  
+
+
+            <label>Any suggestion to make this website better !</label><br>
+            <textarea id="suggestion" type="text" name="Suggestion"></textarea><br>
+
+            <button id="button" onclick="alert(`Your feedback has been recorded. Thank You !`)">Submit</button>
+
+
+        </fieldset>
+     </form>
+    </div>
+    <script src="../../PROJECT1/assets/Js/Feedback.js"></script>
+</body>
+</html>

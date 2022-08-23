@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="/PROJECT1/assets/css/style.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    <nav><h1 >Sign Up Meh.</h1></nav>
+    <form>
+        <fieldset>
+            
+            <legend><img class="bg.img" src="\PROJECT1\assets\Images\profileImg.png" ></legend>
+            <div class="form">
+            <h1><i>Create Your Profile.</i></h1>
+            <p1 class="info">First Name</p1><br>
+            <input class="details" type="text" name="fname" placeholder="Your Name"><br>
+            
+            <p1 class="info">Last Name</p1><br>
+            <input class="details" type="text" name="lname" placeholder="Your Surname"><br>
+            <br>
+            <p1 class="info">Email address : </p1><br>
+            <input class="details" type="text" name="lname" placeholder="Enter your email Id"><br>
+            
+            <p1 class="info"> Confirm Email address : </p1><br>
+            <input class="details" type="text" name="lname" placeholder="Confirm your email address" ><br>
+            <br>
+            <p1 class="info">Gender</p1><br>
+            
+            <input class="gen" type="radio" name="Gender" value="male" >male
+            <input  class="gen" type="radio" name="Gender" value="female">female<br><br>
+
+            <p1 class="info">Date of Birth</p1><br>
+
+            <form action = "action_page.php">
+                <input class="dob" type="date">
+                
+            </form><br>
+
+            <p1 class="info">Enter Mobile number</p1><br>
+            <input class="details" type="number" name="mobno" placeholder="+91- **********"><br><br>
+
+            <input id="robot" type="checkbox" name="robot" value="I'm not a robot">I'm not a robot<br><br>
+            </div>
+
+            <div class="btn"><button id="button" type="button" onclick="alert(`Your SignUp was successful.`)">Submit</button></div>
+
+        </fieldset>
+    </form>
+</body>
+</html>

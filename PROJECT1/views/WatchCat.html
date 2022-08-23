@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches</title>
+    <link href="../assets/css/watchCat.css" rel="stylesheet">
+</head>
+<body>
+        <nav class="nav">
+            <p id="home"><button id="homebtn" type="button" onclick="homefunc()">HOME</button> </p>
+            
+        </nav>
+    
+        <div class="Cart"><button id="btn" type="button" onclick="alert(`Successfully added to Cart.`)">
+        <p id="Cart">ADD TO CART</p>
+        <img height="20px" weight="10px" src="../assets/Images/CartLogo.png">
+        </button>
+        </div>
+    
+        <div class="img">
+        <div class="img1"><img height="600px" width="750px" src="../assets/Images/applewatch1.jpg">
+        <img id="watch" height="600px" width="750px" src="../assets/Images/applewatch2.png"></div>
+        <div class="img2"><img height="600px" width="800px" src="../assets/Images/applewatch3.jpg">
+        <img height="500px" width="600px" src="../assets/Images/applewatch4.jpg"></div>
+        </div>
+    
+        <div class="Shop"><button id="Shop" type="button" onclick="alert(`Your order was placed successfully`)">Buy Now</button></div>
+     
+</body>
+<script>
+    function homefunc()
+    {
+        location.href=("/PROJECT1/views/index.html");
+    }
+</script>
+</html>

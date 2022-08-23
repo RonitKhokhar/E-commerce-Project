@@ -1,0 +1,79 @@
+body{
+    background: url("/PROJECT1/assets/Images/SignUp1.jpg");
+    
+    background-size: 100% 120vh;
+    box-sizing: border-box;
+    /* background-position: cover; */
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0px;
+    height: 400px;
+}
+nav{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+#heading{
+    color: whitesmoke;
+}
+.form{
+    margin: auto;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+fieldset{
+    
+    margin: 25%;
+    margin-top: 30px;
+    background-color: rgba(56, 159, 249, 0.489);
+    
+    
+}
+.info{
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+   
+}
+.details{
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+    width: 400px;
+}
+.gen{
+    border: 0ch;
+    
+    height: 2em;
+    margin-left: 50px;
+}
+.dob{
+    margin: 20px;
+    margin-left: 50px;
+    font-size: 15px;
+    width: 400px;
+}
+#robot{
+    margin-left: 50px;
+    font-size: 40px;
+}
+#button{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 150px;
+    border-radius: 8px;
+}
+#button:hover{
+    background-color: rgb(9, 2, 62);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+#button:active{
+    background-color: rgb(94, 84, 231);
+}
